@@ -5,6 +5,7 @@ body{
     padding: 10px;
     position: center;
     overflow: hidden;
+    background-color: rgb(247, 186, 204);
     background-image: url("baba_2022_01_13.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
