@@ -61,6 +61,7 @@ button:hover {
     box-sizing: border-box;
     border-radius: 60%;
     align-self: center;
+    border: 3.5px solid rgb(59, 59, 59);
 
 }
 
