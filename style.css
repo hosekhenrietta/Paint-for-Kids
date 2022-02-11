@@ -1,0 +1,79 @@
+
+:root{}
+
+body{
+    padding: 10px;
+    position: center;
+    overflow: hidden;
+    background-image: url("baba_2022_01_13.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    position: center;
+}
+
+.tools .color{
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 60%;
+    border: 3.5px solid rgb(59, 59, 59);
+}
+
+.color:hover {
+    box-shadow: #000000 0 0 0 3px, transparent 0 0 0 0;
+    border: 3.5px solid rgb(0, 0, 0);
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border-radius: 60%;
+    background-color: rgb(102, 192, 204);
+    font-size: larger;
+}
+
+button:hover {
+    box-shadow: #000000 0 0 0 3px, transparent 0 0 0 0;
+}
+
+.all-color{
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border-radius: 60%;
+    align-self: center;
+
+}
+
+.brush-size{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+canvas{
+   cursor: pointer; 
+   margin-top: 25px;
+   margin-left: 5px;
+   margin-bottom: 25px;
+   margin-right: 5px;
+   border-radius: 10%;
+}
